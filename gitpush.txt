@@ -16,3 +16,15 @@ git push -u origin main
 git branch
 git remote -v
 git pull
+
+
+
+#### 
+basics headings 
+<h1>Main Title</h1>
+<h2>Section Title</h2>
+<h3>Subsection</h3>
+
+<img src="myphoto.jpg" alt="My face" width="300">
+
+<br>
