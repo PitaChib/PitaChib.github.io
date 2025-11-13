@@ -1,0 +1,18 @@
+#common 
+git status
+git add .
+git commit -m "describe what you changed"
+git push
+
+
+#first time
+git init
+git branch -M main
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/USERNAME/REPO.git
+git push -u origin main
+
+git branch
+git remote -v
+git pull
