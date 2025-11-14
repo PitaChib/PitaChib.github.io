@@ -82,3 +82,44 @@ Retrieved 2025-11-13, License - CC BY-SA 4.0
   object-fit: cover;
   filter: brightness(80%) saturate(90%); 
 }
+
+.affiliations{
+  margin-top: 80px auto 0 auto;
+  width: 400px;
+  padding: 30px 0;
+  text-align: left;
+}
+.aff-title{
+  font-size: 0.9rem;
+  color: #6f4128;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.aff-logos{
+  display: felx;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 400px;
+  width: 500px;
+
+}
+.aff-logos img {
+  animation: fadein 0.6s ease;
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 0.8; transform: translateY(0); }
+}
+
+.inst-logo {
+  height: 60px;
+  object-fit: contain;
+  transition: opacity 0.2s;
+  gap: 40px;
+}
+
+.inst-logo:hover {
+  opacity: 100%;
+}
