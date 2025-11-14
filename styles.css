@@ -22,10 +22,11 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 40px;
-  color:#2c1c13;
+  color:#66023c;
   font-family: -apple-system, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   background-color: #fbfaf8;
+  /* background-color: #cad183; */
 }
 
 h1,h2 {
@@ -45,4 +46,39 @@ h1,h2 {
 
 .rightName {
   text-align: right;
+}
+/*
+Source - https://stackoverflow.com/a
+Posted by Skully, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-13, License - CC BY-SA 4.0
+*/
+
+.cursor {
+    cursor: url("./pics/Dogcow.png") 0 0, auto;
+}
+
+.headshot {
+    width: 200px;
+    height: auto;
+    /* border-radius: 10px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 270px; /* adjust depending on your photo shape */
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+/* Banner image */
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(80%) saturate(90%); 
 }
