@@ -22,8 +22,9 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 40px;
-  color:#66023c;
-  font-family: -apple-system, Helvetica, Arial, sans-serif;
+  color:#332218;
+  /* font-family: -apple-system, Helvetica, Arial, sans-serif; */
+  font-family: "Roboto Mono", monospace;
   line-height: 1.6;
   background-color: #fbfaf8;
   /* background-color: #cad183; */
@@ -31,6 +32,7 @@ body {
 
 h1,h2 {
     font-family: 'sonora', sans-serif;
+    color:#66023c;
 }
 .splitTitle {
   display: flex;
@@ -123,3 +125,5 @@ Retrieved 2025-11-13, License - CC BY-SA 4.0
 .inst-logo:hover {
   opacity: 100%;
 }
+
+
